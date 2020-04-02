@@ -82,7 +82,6 @@ public class DoubleLinkedListImpl {
         DoubleNode tempNode = head;
         while (tempNode != tail) {
             tempNode.setPrev(null);
-            tempNode.getNext().setPrev(null);
             tempNode = tempNode.getNext();
         }
         head = tail = null;
