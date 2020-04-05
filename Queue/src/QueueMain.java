@@ -1,6 +1,6 @@
 public class QueueMain {
     public static void main(String[] args) {
-        
+
         QueueImpl queue = new QueueImpl();
 
         //Test Create
